@@ -14,8 +14,8 @@ entity kadai2 is
 end kadai2;
 	
 architecture RTL of kadai2 is
-	signal TENABLE, CO : std_logic;
-	signal COUNTH, COUNTL, INIT : std_logic_vector(3 downto 0);
+	signal TENABLE : std_logic;
+	signal COUNTH, COUNTL : std_logic_vector(3 downto 0);
 	signal L, H : std_logic_vector(6 downto 0);
 	
 	component CLKDOWN port (
@@ -26,7 +26,14 @@ architecture RTL of kadai2 is
 		ENABLE : out std_logic );
 	end component;
 	
-	component COUNT port (
+	component COUNT10 port (
+		CLK : in std_logic;
+		RSTN : in std_logic;
+		ENABLE : in std_logic;
+		COUNT : out std_logic_vector(3 downto 0) );
+	end component;
+	
+	component COUNT6 port (
 		CLK : in std_logic;
 		RSTN : in std_logic;
 		ENABLE : in std_logic;
@@ -44,20 +51,12 @@ begin
 		CLK => CLK, RSTN => RSTN, STARTN => STARN, STOPN => STOPN, ENABLE => TENABLE
 	);
 	
-	U2 : COUNT port map (
-		CLK => CLK, RSTN => RSTN, ENABLE => TENABLE, CIN => INIT, COUNT => COUNTH
+	U2 : COUNT10 port map (
+		CLK => CLK, RSTN => RSTN, ENABLE => TENABLE, COUNT => COUNTH
 	);
 	
-	process (COUNTH) begin
-		if (COUNTH = "1001" and TENABLE = '1') then
-			CO <= '1';
-		else
-			CO <= '0';
-		end if;
-	end process;
-	
-	U3 : COUNT port map (
-		CLK => CLK, RSTN => RSTN, ENABLE => CO,CIN => COUNTH, COUNT => COUNTL
+	U3 : COUNT6 port map (
+		CLK => CLK, RSTN => RSTN, ENABLE => TENABLE, CIN => COUNTH, COUNT => COUNTL
 	);
 	
 	U4 : LEDDEC port map (

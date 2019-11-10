@@ -38,27 +38,28 @@ begin
 		TB_STARN <= '0'; TB_STOPN<='1'; wait for 500 ns;
 		TB_STARN <= '1'; TB_STOPN<='1'; wait for 1000 ns;
 		TB_STARN <= '1'; TB_STOPN<='0'; wait for 500 ns;
+		TB_STARN <= '0'; TB_STOPN<='1'; wait for 500 ns;
 		TB_STARN <= '1'; TB_STOPN<='1'; wait;
 	end process;
 	
-	process begin
-		TB_CLK <= '0'; wait for CLK_CYCLE/2;
-		TB_CLK <= '1'; wait for CLK_CYCLE/2;
-	end process;
-	
-	process begin
-		TB_RSTN <= '0'; wait for CLK_CYCLE/4;
-		TB_RSTN <= '1'; wait;
-	end process;
-	
-	process begin
-		TB_STARN <= '1'; TB_STOPN<='1'; wait for CLK_CYCLE/2;
-												  wait for CLK_CYCLE*5;
-		TB_STARN <= '0'; TB_STOPN<='1'; wait for CLK_CYCLE*5;
-		TB_STARN <= '1'; TB_STOPN<='1'; wait for CLK_CYCLE*10;
-		TB_STARN <= '1'; TB_STOPN<='0'; wait for CLK_CYCLE*5;
-		TB_STARN <= '1'; TB_STOPN<='1'; wait;
-	end process;
+--	process begin
+--		TB_CLK <= '0'; wait for CLK_CYCLE/2;
+--		TB_CLK <= '1'; wait for CLK_CYCLE/2;
+--	end process;
+--	
+--	process begin
+--		TB_RSTN <= '0'; wait for CLK_CYCLE/4;
+--		TB_RSTN <= '1'; wait;
+--	end process;
+--	
+--	process begin
+--		TB_STARN <= '1'; TB_STOPN<='1'; wait for CLK_CYCLE/2;
+--												  wait for CLK_CYCLE*5;
+--		TB_STARN <= '0'; TB_STOPN<='1'; wait for CLK_CYCLE*5;
+--		TB_STARN <= '1'; TB_STOPN<='1'; wait for CLK_CYCLE*10;
+--		TB_STARN <= '1'; TB_STOPN<='0'; wait for CLK_CYCLE*5;
+--		TB_STARN <= '1'; TB_STOPN<='1'; wait;
+--	end process;
 end TESTBENCH;
 	
 configuration CFG_TBGATE of TBkadai2 is

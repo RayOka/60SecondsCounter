@@ -14,23 +14,23 @@ aTESTBENCH
 Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DEx4 work 6 kadai2 0 22 RcfUYYJUKeRSm3=Oaaz291
-DAx4 work 8 tbkadai2 9 testbench 22 UOjl6dK=l5m@eNiLWQcIO1
+DAx4 work 8 tbkadai2 9 testbench 22 ]0?zX38A4BGHLVzmHoRb`3
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z6 DEx4 work 8 tbkadai2 0 22 9C_bV@b@EG^ml@gckAmd>0
-Z7 w1573371885
+Z7 w1573393350
 R0
 Z8 8F:/COMPSYS/kadai2/tbkadai2.vhd
 Z9 FF:/COMPSYS/kadai2/tbkadai2.vhd
 l0
-L64
-V:O5^i@6b3`AZNV?C?_5hF3
-!s100 [hn@Fzg@Sdzch>i>UiFT02
+L65
+V:HiA^O]n?zAX@Wz>QYgmX2
+!s100 c;@E2a=73m=8Gh6?Nah>^0
 Z10 OV;C;10.5b;63
 32
-Z11 !s110 1573392665
+Z11 !s110 1573394529
 !i10b 0
-Z12 !s108 1573392664.000000
+Z12 !s108 1573394529.000000
 Z13 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/tbkadai2.vhd|
 Z14 !s107 F:/COMPSYS/kadai2/tbkadai2.vhd|
 !i113 1
@@ -51,11 +51,11 @@ V=o=f`]3[SOjc?_CU<GIIT2
 !s100 3B2]Ki1MA4N6GSUn6GiiB0
 R10
 32
-Z20 !s110 1573392664
+R11
 !i10b 1
 R12
-Z21 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/clock_down.vhd|
-Z22 !s107 F:/COMPSYS/kadai2/clock_down.vhd|
+Z20 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/clock_down.vhd|
+Z21 !s107 F:/COMPSYS/kadai2/clock_down.vhd|
 !i113 1
 R15
 R16
@@ -71,34 +71,34 @@ VoD]<Rj2YV^XZXHdeG]5Lj1
 !s100 UfjWmKFI@RD2kVMHMiZD11
 R10
 32
-R20
+R11
 !i10b 1
 R12
+R20
 R21
-R22
 !i113 1
 R15
 R16
-Ecount
-Z23 w1573392028
+Ecount10
+Z22 w1573393652
 R2
 R1
 R4
 R5
 R0
-Z24 8F:/COMPSYS/kadai2/4bit_counter.vhd
-Z25 FF:/COMPSYS/kadai2/4bit_counter.vhd
+Z23 8F:/COMPSYS/kadai2/4bit_counter.vhd
+Z24 FF:/COMPSYS/kadai2/4bit_counter.vhd
 l0
 L5
-VkdcUHOOQa<Y5843BI`9Bn1
-!s100 VYT>KNJ1eTK3f<9eFnkOR0
+VY8OMo_H>]UHPYe[9a<Xaz0
+!s100 oLgmC[DNSRI6LSa?ELCR:1
 R10
 32
-R20
+R11
 !i10b 1
 R12
-Z26 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/4bit_counter.vhd|
-Z27 !s107 F:/COMPSYS/kadai2/4bit_counter.vhd|
+Z25 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/4bit_counter.vhd|
+Z26 !s107 F:/COMPSYS/kadai2/4bit_counter.vhd|
 !i113 1
 R15
 R16
@@ -107,41 +107,84 @@ R2
 R1
 R4
 R5
-DEx4 work 5 count 0 22 kdcUHOOQa<Y5843BI`9Bn1
-l16
-L14
-VnU<m_K<kZAo7SVogknbMn3
-!s100 gQ<goD@4loUK<aPk<<2ig3
+DEx4 work 7 count10 0 22 Y8OMo_H>]UHPYe[9a<Xaz0
+l15
+L13
+Vj9UW@mzJX[FZ`zDG[G]?D1
+!s100 ePYM<e19dL=oJQ8HkjZfE1
 R10
 32
-R20
+R11
 !i10b 1
 R12
+R25
 R26
-R27
 !i113 1
 R15
 R16
-Ekadai2
-Z28 w1573392469
+Ecount6
+Z27 w1573394160
 R2
 R1
 R4
 R5
 R0
-Z29 8F:/COMPSYS/kadai2/kadai2.vhd
-Z30 FF:/COMPSYS/kadai2/kadai2.vhd
+Z28 8F:/COMPSYS/kadai2/4bit_counter_2digit.vhd
+Z29 FF:/COMPSYS/kadai2/4bit_counter_2digit.vhd
+l0
+L5
+V@BMDN6_cd`1XZ3SIYg9fO2
+!s100 ;Ioe1FNnF0Bfb;6>;0PaB3
+R10
+32
+R11
+!i10b 1
+R12
+Z30 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/4bit_counter_2digit.vhd|
+Z31 !s107 F:/COMPSYS/kadai2/4bit_counter_2digit.vhd|
+!i113 1
+R15
+R16
+Artl
+R2
+R1
+R4
+R5
+DEx4 work 6 count6 0 22 @BMDN6_cd`1XZ3SIYg9fO2
+l16
+L14
+VJ?URM:AgHho1ijOm@VF1C2
+!s100 LCKLY78^W9b1;<QjEJczJ0
+R10
+32
+R11
+!i10b 1
+R12
+R30
+R31
+!i113 1
+R15
+R16
+Ekadai2
+Z32 w1573394365
+R2
+R1
+R4
+R5
+R0
+Z33 8F:/COMPSYS/kadai2/kadai2.vhd
+Z34 FF:/COMPSYS/kadai2/kadai2.vhd
 l0
 L5
 VRcfUYYJUKeRSm3=Oaaz291
 !s100 lfVZbZAon_42IPD^?USNm2
 R10
 32
-R20
+R11
 !i10b 1
 R12
-Z31 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/kadai2.vhd|
-Z32 !s107 F:/COMPSYS/kadai2/kadai2.vhd|
+Z35 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/kadai2.vhd|
+Z36 !s107 F:/COMPSYS/kadai2/kadai2.vhd|
 !i113 1
 R15
 R16
@@ -151,38 +194,38 @@ R1
 R4
 R5
 R3
-l42
+l49
 L16
-VC7A5j[3<]RkjUE0`O@eR60
-!s100 n_FQ[kB3Ba7lkjn2N@0Go2
+Vn:BFBAb9DzUm><Q2L8bg=3
+!s100 YP43M1J8eUQNiof^c=5i[1
 R10
 32
-R20
+R11
 !i10b 1
 R12
-R31
-R32
+R35
+R36
 !i113 1
 R15
 R16
 Eleddec
-Z33 w1573366970
+Z37 w1573366970
 R4
 R5
 R0
-Z34 8F:/COMPSYS/kadai2/leddec.vhd
-Z35 FF:/COMPSYS/kadai2/leddec.vhd
+Z38 8F:/COMPSYS/kadai2/leddec.vhd
+Z39 FF:/COMPSYS/kadai2/leddec.vhd
 l0
 L4
 V5POUh1N<OV`_HKQSb]VIV0
 !s100 zkT54n0kl>oP^1^Q]Od[62
 R10
 32
-R20
+R11
 !i10b 1
 R12
-Z36 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/leddec.vhd|
-Z37 !s107 F:/COMPSYS/kadai2/leddec.vhd|
+Z40 !s90 -reportprogress|300|-work|work|F:/COMPSYS/kadai2/leddec.vhd|
+Z41 !s107 F:/COMPSYS/kadai2/leddec.vhd|
 !i113 1
 R15
 R16
@@ -196,11 +239,11 @@ VK;S^ENJ4>c7Y[C4G4ghmE0
 !s100 Y7d^ld];[NUBh?E;QNDae2
 R10
 32
-R20
+R11
 !i10b 1
 R12
-R36
-R37
+R40
+R41
 !i113 1
 R15
 R16
@@ -231,8 +274,8 @@ R5
 R6
 l17
 L7
-VUOjl6dK=l5m@eNiLWQcIO1
-!s100 hkb9f=@azc>;il=mA;[RQ2
+V]0?zX38A4BGHLVzmHoRb`3
+!s100 TzRJMYFG5?:HQgLRT?Sf61
 R10
 32
 R11
