@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDH[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDH[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDH[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDH[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDH[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDH[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDH[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RSTN",
+					"strict" : false
+				},
+				{
+					"name" : "STARN",
+					"strict" : false
+				},
+				{
+					"name" : "STOPN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
