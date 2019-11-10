@@ -32,6 +32,7 @@ begin
 				STATUS <= '1';
 			elsif (STOPN = '0') then
 				STATUS <= '0';
+				ENABLE <= '0';
 			end if;
 			if (STATUS = '1') then
 				if (ZEROCOUNT = COUNT) then

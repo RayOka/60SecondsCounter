@@ -6,7 +6,8 @@ entity COUNT is
 	port (
 		CLK : in std_logic;
 		RSTN : in std_logic;
-		ENABLE: in std_logic;
+		ENABLE : in std_logic;
+		CIN : in std_logic_vector(3 downto 0);
 		COUNT : out std_logic_vector(3 downto 0) );
 end COUNT;
 	
@@ -20,6 +21,8 @@ begin
 		elsif (CLK'event and CLK = '1') then
 			if (ENABLE = '1') then
 				if (COUNT_IN = "1001") then
+					COUNT_IN <= "0000";
+				elsif (CIN = "1001" and COUNT_IN <= "0101") then
 					COUNT_IN <= "0000";
 				else
 					COUNT_IN <= COUNT_IN + 1;
